@@ -1,5 +1,6 @@
 import styles from './NavBar.module.scss';
-
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {useState} from 'react';
 import {useDispatch} from 'react-redux';
 import Container from "../Container/Container";
@@ -11,12 +12,12 @@ const NavBar = () => {
         <nav className={styles.nawBar}>
             <Container >
                 <div className={styles.navContainer}>
-                    <span><a className="fa fa-tasks" href='/'/></span>
+                   <Link to="/"><span className="fa fa-tasks"></span></Link>
                 <div>
                     <ul className={styles.navList}>
-                        <li className={styles.navListItem}><a href='/'>Home</a></li>
-                        <li className={styles.navListItem}><a href='/favorite'>Favorite</a></li>
-                        <li className={styles.navListItem}><a href='/about'>About</a></li>
+                        <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/">Home</NavLink></li>
+                        <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/favorite">Favorite</NavLink></li>
+                        <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/about">About</NavLink></li>
                     </ul>
                 </div>
                 </div>

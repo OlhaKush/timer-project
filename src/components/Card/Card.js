@@ -1,8 +1,8 @@
 import styles from './Card.module.scss';
 import Button from "../Button/Button";
 import {useDispatch} from 'react-redux';
-import { toggleCard } from '../../redux/store';
-import { removeCard } from '../../redux/store';
+import { toggleCard } from '../../redux/cardsRedux';
+import { removeCard } from '../../redux/cardsRedux';
 import clsx from 'clsx';
 
 const Card = props => {

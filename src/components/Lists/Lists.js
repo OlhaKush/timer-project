@@ -2,7 +2,7 @@ import styles from './Lists.module.scss';
 import ListForm from '../ListForm/ListForm';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { getAllLists } from '../../redux/store';
+import { getAllLists } from '../../redux/listsRedux';
 
 
 const Lists = () => {
@@ -23,7 +23,6 @@ const Lists = () => {
         </section>
 
     );
-
 };
 
 export default Lists;

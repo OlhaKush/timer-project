@@ -3,10 +3,10 @@ import Container from "../Container/Container";
 import PageTitle from "../PageTitle/PageTitle";
 import Card from "../Card/Card";
 import { useSelector } from 'react-redux';
-import { getFavorite } from '../../redux/store';
-
+import {getFavorite} from '../../redux/store';
 
 const Favorite = props => {
+
 
     const cards = useSelector(state => getFavorite(state, props.id));
 

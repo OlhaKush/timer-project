@@ -1,3 +1,4 @@
+
 @import '../../styles/settings.scss';
 
 .card {
@@ -10,4 +11,14 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+
+}
+
+
+.isFavorite {
+  color: $color-warning;
+}
+
+.notFavorite {
+  color: $color-light;
 }

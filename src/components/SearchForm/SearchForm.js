@@ -11,13 +11,17 @@ const SearchForm = () => {
     const [title, setTitle] = useState('');
 
     useEffect(() => {
-        dispatch(searchString({title}));
-    }, []);
+       return (() => {
+           dispatch(searchString({title: ''}));
+           }
+        )
+    },
+        []);
 
     const handleSubmit = e => {
         e.preventDefault();
         dispatch(searchString ({title}));
-        setTitle('');
+        // setTitle('');
     };
 
         return (

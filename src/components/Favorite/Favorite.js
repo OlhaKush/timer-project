@@ -9,17 +9,39 @@ const Favorite = props => {
 
     const cards = useSelector(state => getFavorite(state, props.id));
 
-    return (
-        <Container >
-            <PageTitle>Favorite</PageTitle>
-            <p>Some text here</p>
-            <article className={styles.column}>
-                <ul className={styles.cards}>
-                    {cards.map(card => <Card key={card.id} id={card.id} title={card.title} isFavorite={card.isFavorite}/>)}
-                </ul>
-            </article>
-        </Container>
-    );
-};
+    // if (!cards.length) {
+    //     return (
+    //         <p>Favorite is empty</p>
+    //     )
+    // }
+
+        return (
+            <Container>
+                <PageTitle>Favorite</PageTitle>
+                {
+                    !cards.length ?  (<p>Favorite is empty</p>) : (
+                        <>
+                            <p>Some text here</p>
+                            <article className={styles.column}>
+                                <ul className={styles.cards}>
+                                    {cards.map(card => <Card key={card.id} id={card.id} title={card.title}
+                                                             isFavorite={card.isFavorite}/>)}
+                                </ul>
+                            </article>
+                        </>
+                    )
+                }
+                {/*<>*/}
+                {/*<p>Some text here</p>*/}
+                {/*<article className={styles.column}>*/}
+                {/*    <ul className={styles.cards}>*/}
+                {/*        {cards.map(card => <Card key={card.id} id={card.id} title={card.title}*/}
+                {/*                                 isFavorite={card.isFavorite}/>)}*/}
+                {/*    </ul>*/}
+                {/*</article>*/}
+                {/*    </>*/}
+            </Container>
+        );
+    };
 
 export default Favorite;

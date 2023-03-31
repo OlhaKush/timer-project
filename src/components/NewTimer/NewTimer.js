@@ -5,37 +5,48 @@ import React from 'react';
 
 const NewTimer = () => {
 
-    const [time, setTime] = useState(0);
-    const [intervalId, setIntervalId] = useState(0);
 
-    const startTimer = () => {
-        const newIntervalId = setInterval(() => {
-            setTime(time => time + 1);
-        }, 10);
-        setIntervalId(newIntervalId);
-    };
+        const [time, setTime] = useState(0);
+        const [intervalId, setIntervalId] = useState(null);
 
-    const stopTimer = () => {
-        if (intervalId) {
+
+    useEffect(() => {
+        return () => {
             clearInterval(intervalId);
         }
-    };
+    });
 
-    const resetTimer = () => {
-        if (intervalId) {
-            clearInterval(intervalId);
-            setTime(0);
-        }
-    };
+        const startTimer = () => {
+            const newIntervalId = setInterval(() => {
+                setTime(time => time + 100);
+            }, 100);
+            setIntervalId(newIntervalId);
+        };
 
-    const formatTime = (time) => {
-        const hours = Math.floor(time / 3600000);
-        const minutes = Math.floor((time % 3600000) / 60000);
-        const seconds = Math.floor(((time % 360000) % 60000) / 100);
+        const stopTimer = () => {
+            if (intervalId) {
+                clearInterval(intervalId);
+            }
+        };
 
-        return hours + ":" + minutes + ":" + seconds + ":" + time
+        const resetTimer = () => {
+            if (intervalId) {
+                clearInterval(intervalId);
+                setTime(0);
+            }
+        };
 
-    };
+        const formatTime = (t) => {
+
+            const ms = t % 1000;
+            t = (t - ms) / 1000;
+            const secs = t % 60;
+            t = (t - secs) / 60;
+            const mins = t % 60;
+            const hrs = (t - mins) / 60;
+
+            return hrs + ':' + mins + ':' + secs + '.' + ms;
+        };
 
     return (
         <div className={styles.wrapper}>

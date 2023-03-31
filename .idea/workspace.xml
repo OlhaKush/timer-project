@@ -2,9 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28bc22df-4011-4c53-8813-89ee3a6c3c3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/NewTimer/NewTimer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NewTimer/NewTimer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Timer/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Timer/Timer.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Favorite/Favorite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Favorite/Favorite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardForm/CardForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardForm/CardForm.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Column/Column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Column/Column.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ColumnForm/ColumnForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ColumnForm/ColumnForm.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container/.idea/Container.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container/Container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container/Container.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container/Container.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Favorite/Favorite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Favorite/Favorite.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/List.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListForm/ListForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListForm/ListForm.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Lists/Lists.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Lists/Lists.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotFound/NotFound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotFound/NotFound.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageTitle/PageTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageTitle/PageTitle.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextInput/TextInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextInput/TextInput.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cardsRedux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/columnsRedux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/initialState.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/listsRedux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/searchStringRedux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/strContains.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,25 +67,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my-app" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/store.js">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="31" selection-start-line="31" selection-start-column="3" selection-end-line="32" selection-end-column="73" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
-                <element signature="e#0#56#0" expanded="true" />
+                <element signature="e#76#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Timer/Timer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1241">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Favorite/Favorite.js">
+        <entry file="file://$PROJECT_DIR$/src/components/NewTimer/NewTimer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="459">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -56,9 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/strContains.js" />
-        <option value="$PROJECT_DIR$/src/components/SearchForm/SearchForm.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/NawBar/NawBar.scss" />
         <option value="$PROJECT_DIR$/src/components/NawBar/NawBar.module.scss" />
         <option value="$PROJECT_DIR$/src/components/About/About.module.scss" />
         <option value="$PROJECT_DIR$/src/components/NawBar/NawBar.js" />
@@ -71,7 +135,6 @@
         <option value="$PROJECT_DIR$/src/components/NotFound/NotFound.js" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Lists/Lists.module.scss" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/ListForm/ListForm.module.scss" />
         <option value="$PROJECT_DIR$/src/redux/initialState.js" />
@@ -93,6 +156,24 @@
         <option value="$PROJECT_DIR$/src/components/Card/Card.js" />
         <option value="$PROJECT_DIR$/src/components/SearchForm/SearchForm.js" />
         <option value="$PROJECT_DIR$/src/components/Favorite/Favorite.js" />
+        <option value="$PROJECT_DIR$/src/components/Product/Product.js" />
+        <option value="$PROJECT_DIR$/src/components/Products/Products.js" />
+        <option value="$PROJECT_DIR$/src/components/Timer/Timer.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Container/Container.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/newTimer/newTimer.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Buttons/Buttons.js" />
+        <option value="$PROJECT_DIR$/src/components/Buttons/Buttons.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/formatTime/formatTime.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/formatTime/formatTime.js" />
+        <option value="$PROJECT_DIR$/src/components/formatTime/FormatTime.js" />
+        <option value="$PROJECT_DIR$/src/components/FormatTime/FormatTime.js" />
+        <option value="$PROJECT_DIR$/src/components/Test/Test.js" />
+        <option value="$PROJECT_DIR$/src/components/newTimer/newTimer.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Button/Button.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/NewTimer/NewTimer.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Timer/Timer.js" />
+        <option value="$PROJECT_DIR$/src/components/NewTimer/NewTimer.js" />
       </list>
     </option>
   </component>
@@ -107,6 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,13 +212,14 @@
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Favorite" type="462c0819:PsiDirectoryNode" />
+              <item name="NewTimer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Timer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
@@ -144,23 +227,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../timer-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -210,18 +286,30 @@
       <workItem from="1679471847355" duration="26524000" />
       <workItem from="1679571086505" duration="58000" />
       <workItem from="1679571173349" duration="21000" />
-      <workItem from="1679580211398" duration="2081000" />
+      <workItem from="1679580211398" duration="3449000" />
+      <workItem from="1679596618614" duration="6160000" />
+      <workItem from="1679681811452" duration="869000" />
+      <workItem from="1679688024600" duration="7603000" />
+      <workItem from="1679850808374" duration="2813000" />
+      <workItem from="1679862921306" duration="4159000" />
+      <workItem from="1679945173289" duration="4347000" />
+      <workItem from="1680166356104" duration="9896000" />
+      <workItem from="1680176487653" duration="1777000" />
+      <workItem from="1680189877624" duration="1602000" />
+      <workItem from="1680192172767" duration="6162000" />
+      <workItem from="1680207565352" duration="4755000" />
+      <workItem from="1680251393566" duration="435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91879000" />
+    <option name="totallyTimeSpent" value="143825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18968935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18968935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -257,7 +345,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="RNConsole" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -277,138 +365,101 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../project-pizzeria/src/js/script.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Column/Column.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/components/Favorite/Favorite.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/redux/listsRedux.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/About/About.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Column/Column.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/ColumnForm/ColumnForm.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Hero/Hero.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Home.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/List/List.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/PageTitle/PageTitle.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/NotFound/NotFound.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/CardForm/CardForm.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/redux/columnsRedux.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/ListForm/ListForm.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Lists/Lists.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/CardForm/CardForm.js" />
+    <entry file="file://$PROJECT_DIR$/src/redux/cardsRedux.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Favorite/Favorite.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/TextInput/TextInput.js" />
+    <entry file="file://$PROJECT_DIR$/src/redux/searchStringRedux.js" />
+    <entry file="file://$PROJECT_DIR$/src/redux/store.js" />
+    <entry file="file://$PROJECT_DIR$/src/redux/initialState.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/SearchForm/SearchForm.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Products/Products.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Product/Product.js" />
+    <entry file="file://$PROJECT_DIR$/src/data/products.js" />
+    <entry file="file://$PROJECT_DIR$/../../react-project/my-app/src/components/Column/Column.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../project-pizzeria/src/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/strContains.js">
+    <entry file="file://$PROJECT_DIR$/../../react-project/my-app/src/components/Card/Card.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="76" lean-forward="true" selection-start-column="76" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Container/Container.module.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/typography.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SearchForm/SearchForm.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/global.scss">
+    <entry file="file://$PROJECT_DIR$/../../react-project/my-app/src/components/Button/Button.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/About/About.module.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Timer/Timer.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="37" />
+          <caret selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hero/Hero.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/components/Buttons/Buttons.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/components/Buttons/Buttons.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Container/Container.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FormatTime/FormatTime.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/FormatTime/FormatTime.module.scss" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="33" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PageTitle/PageTitle.module.scss">
+    <entry file="file://$PROJECT_DIR$/../../react-project/my-app/src/components/CardForm/CardForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NotFound/NotFound.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/List/List.module.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Test/Test.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Button/Button.js" />
+    <entry file="file://$PROJECT_DIR$/src/styles/normalize.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Lists/Lists.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ColumnForm/ColumnForm.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ListForm/ListForm.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Button/Button.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/settings.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -417,227 +468,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.module.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Button/Button.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#76#130#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Column/Column.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Favorite/Favorite.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/initialState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/searchStringRedux.js">
+    <entry file="file://$PROJECT_DIR$/src/components/NewTimer/NewTimer.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/listsRedux.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Timer/Timer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/About/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Button/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Column/Column.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Container/Container.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ColumnForm/ColumnForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hero/Hero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="95" selection-start-line="5" selection-start-column="12" selection-end-line="6" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/List/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PageTitle/PageTitle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="-1241">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NotFound/NotFound.js">
+    <entry file="file://$PROJECT_DIR$/src/components/NewTimer/NewTimer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TextInput/TextInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CardForm/CardForm.module.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/columnsRedux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ListForm/ListForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Lists/Lists.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CardForm/CardForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/cardsRedux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SearchForm/SearchForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" selection-start-line="31" selection-start-column="3" selection-end-line="32" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Favorite/Favorite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="459">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>

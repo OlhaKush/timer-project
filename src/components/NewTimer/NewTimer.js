@@ -14,7 +14,7 @@ const NewTimer = () => {
         return () => {
             clearInterval(intervalId);
         }
-    });
+    }, []);
 
         const startTimer = () => {
             const newIntervalId = setInterval(() => {
